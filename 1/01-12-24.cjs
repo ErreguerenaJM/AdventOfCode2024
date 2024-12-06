@@ -1,8 +1,8 @@
-const { parseInput } = require('../helperFunctions.cjs');
+const { parseInputFullArray } = require('../helperFunctions.cjs');
 
 function mainFunction(pathname) {
 
-    let array = parseInput(pathname);
+    let array = parseInputFullArray(pathname);
 
     let arrayUno = [], arrayDos = [];
    
@@ -16,7 +16,7 @@ function mainFunction(pathname) {
 function mainFunctionB(pathname)
 {
     
-    let array = parseInput(pathname);
+    let array = parseInputFullArray(pathname);
 
     let arrayUno = [], arrayDos = [];
    
